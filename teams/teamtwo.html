@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang = "en">
+	<head>
+		<meta charset="utf8" />
+		<title>PLAY! Team 2</title>
+		<link rel="stylesheet" type="text/css" href="/common/css/commstyle.css" />
+	</head>
+	<body>
+		<h1> Play Time! </h1>
+		<h2>
+			Find the resource needed and tap to send it to the student!
+		</h2>
+		<form name = "formOne" id = "formOne" method="get" action="../common/php/witchcraft.php">
+			<input type="hidden" name="team" id="team" value='T2'>
+			<input type="hidden" name="object" id="object" value='1'>
+		</form>
+		<form name = "formTwo" id = "formTwo" method="get" action="../common/php/witchcraft.php">
+			<input type="hidden" name="team" id="team" value='T2'>
+			<input type="hidden" name="object" id="object" value='2'>
+		</form>
+		<form name = "formThree" id = "formThree" method="get" action="../common/php/witchcraft.php">
+			<input type="hidden" name="team" id="team" value='T2'>
+			<input type="hidden" name="object" id="object" value='3'>
+		</form>
+		<form name = "formFour" id = "formFour" method="get" action="../common/php/witchcraft.php">
+			<input type="hidden" name="team" id="team" value='T2'>
+			<input type="hidden" name="object" id="object" value='4'>
+		</form>
+		<div class="matching">
+			<div onclick = "document.forms['formOne'].submit();">
+				<img class="mySlides" src="/img/game/Effort.png" style="width:250px">
+			</div>
+			<div onclick = "document.forms['formTwo'].submit();">
+				<img class="mySlides" src="/img/game/Food.png" style="width:250px">
+			</div>
+			<div onclick = "document.forms['formThree'].submit();">
+				<img class="mySlides" src="/img/game/Money.png" style="width:250px">
+			</div>
+			<div onclick = "document.forms['formFour'].submit();">
+				<img class="mySlides" src="/img/game/Sleep.png" style="width:250px">
+			</div>
+			<button class="button" onclick="plusDivs(-1)">Prev</button>
+			<button class="button" onclick="plusDivs(1)">Next</button>
+		</div>
+		<script>
+			var slideIndex = 1;
+			showDivs(slideIndex);
+			function plusDivs(n) {
+				showDivs(slideIndex += n);
+			}
+			function currentDiv(n) {
+				showDivs(slideIndex = n);
+			}
+			function showDivs(n) {
+				var i;
+				var x = document.getElementsByClassName("mySlides");
+				if (n > x.length) {slideIndex = 1}
+				if (n < 1) {slideIndex = x.length}
+				for (i = 0; i < x.length; i++) {
+					x[i].style.display = "none";
+				}
+				x[slideIndex-1].style.display = "block";
+				dots[slideIndex-1].className += " w3-red";
+			}
+		</script>
+	</body>
+</html>

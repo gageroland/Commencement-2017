@@ -1,0 +1,122 @@
+/*
+ * RED : #8F1A31
+ * DARK GREY : #363537
+ * 3 GREY : #D7D7D7
+ * 2 GREY : #E9E9E9
+ * 1 GREY : #F4F4F4
+ */
+
+body{
+	margin: 0 0 0 0;
+}
+.content{
+	max-width:1200px;
+	margin: 0 auto;
+}
+h1{
+	margin: 0 0 0 0;
+	padding: 50px 0;
+	font-size: 35px;
+	text-align: center;
+	width: 100%;
+	background-color: #363537;
+	color: white;
+}
+.animate-opacity{animation:opac 2.0s}@keyframes opac{from{opacity:0} to{opacity:1}}
+
+/*INDEX////////////////////////////////////////////////////////////////*/
+
+.welcomeScr{
+	background-color: #8F1A31;
+	text-align: center;
+	width: 100%;
+}
+.welcomeScr h3{
+	font-size: 70px;
+}
+.welcomeScr img{
+	width: 500px;
+}
+.welcomeScr a{
+	border-style: solid;
+	padding: 30px 30px;
+	text-decoration: none;
+	color: #F4F4F4;
+	font-size: 50px;
+}
+.welcomeScr a:hover{
+	background-color: #363537;
+}
+
+/*SELECT///////////////////////////////////////////////////////////////*/
+
+body .teamSelect{
+	background-color: black;
+}
+.teamSelect{
+	background-color: black;
+	max-width: 900px;
+	margin: 0 auto;
+}
+.teamSelect a{
+	text-decoration: none;
+}
+.teamSelect a p{
+	background-color: #8F1A31;
+	color: #F4F4F4;
+	font-size: 35px;
+	text-align: center;
+	padding: 80px 0;
+}
+.teamSelect a img{
+	max-width: 900px;
+	padding: 10px 0 10px 0;
+}
+
+/*TEAM CONFIRM + INSTRUCTIONS//////////////////////////////////////////*/
+
+.teamConfirm{
+	background-color: #F4F4F4;
+}
+.how2play{
+	max-width: 900px;
+}
+.how2play h2{
+	font-size: 50px;
+}
+.how2play h3{
+	font-size: 40px;
+	width: 100%;
+	background-color: #E9E9E9;
+}
+.how2play p{
+	font-size: 20px;
+}
+.confirmButton a{
+	text-decoration: none;
+}
+.confirmButton a p{
+	padding: 50px 0;
+	width: 100%;
+	font-size: 50px;
+	color: white;
+	text-align: center;
+	background-color: red;
+}
+
+/*TEAM 1//////////////////////////////////////////////////////////*/
+
+.matching{
+	margin: 0 auto;
+	width: 300px;
+}
+
+button{
+	width: 250px;
+	height: 150px;
+	margin: 0 auto;
+}
+
+/*TEAM 2//////////////////////////////////////////////////////////////*/
+
+
