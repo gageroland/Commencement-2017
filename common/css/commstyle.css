@@ -75,9 +75,6 @@ body .teamSelect{
 
 /*TEAM CONFIRM + INSTRUCTIONS//////////////////////////////////////////*/
 
-.teamConfirm{
-	background-color: #F4F4F4;
-}
 .how2play{
 	max-width: 900px;
 }
@@ -104,7 +101,7 @@ body .teamSelect{
 	background-color: red;
 }
 
-/*TEAM 1//////////////////////////////////////////////////////////*/
+/*GAME PAGES//////////////////////////////////////////////////////////*/
 
 .matching{
 	margin: 0 auto;
@@ -117,6 +114,29 @@ button{
 	margin: 0 auto;
 }
 
-/*TEAM 2//////////////////////////////////////////////////////////////*/
 
-
+/*"Game Makers (1)"//////////////////////////////////////////////////////////*/
+.gameMakers h1{
+    background-image: url("/img/bg/game-banner.gif");
+    background-repeat: no-repeat;
+    background-position: center;
+    color: black;
+}
+/*"Network (2)"//////////////////////////////////////////////////////////////*/
+.network h1{
+    background-image: url("/img/bg/network-banner.gif");
+    background-repeat: no-repeat;
+    background-position: center;
+}
+/*"Developers (3)"/////////////////////////////////////////////////////////////*/
+.developers h1{
+    background-image: url("/img/bg/developers-banner.gif");
+    background-repeat: no-repeat;
+    background-position: center;
+}
+/*"Designers (4)"////////////////////////////////////////////////////////////*/
+.makers h1{
+    background-image: url("/img/bg/makers-banner.gif");
+    background-repeat: no-repeat;
+    background-position: center;
+}
