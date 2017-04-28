@@ -137,6 +137,7 @@ button{
     background-position: center;
 }
 
+/*Admin Page*/
 .admin{
     background-image: url("../../img/sadpepe.jpeg");
     background-repeat: no-repeat;
@@ -150,4 +151,20 @@ button{
 }
 .admin h3{
     float:left;
+}
+
+/*End page*/
+.button{
+    margin: 0 auto;
+}
+.button a{
+	border-style: solid;
+	padding: 30px 30px;
+	text-decoration: none;
+	color: black;
+	font-size: 50px;
+}
+.button a:hover{
+    color: white;
+	background-color: #363537;
 }
