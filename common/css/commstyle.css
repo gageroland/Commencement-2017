@@ -136,3 +136,18 @@ button{
     background-repeat: no-repeat;
     background-position: center;
 }
+
+.admin{
+    background-image: url("../../img/sadpepe.jpeg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 1900px;
+}
+.admin div img{
+    background-color: rgba(0,0,0,0.5);
+    border-radius: 30px;
+    float: left;
+}
+.admin h3{
+    float:left;
+}
