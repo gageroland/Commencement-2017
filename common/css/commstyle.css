@@ -49,12 +49,8 @@ h1{
 }
 
 /*SELECT///////////////////////////////////////////////////////////////*/
-
-body .teamSelect{
-	background-color: black;
-}
 .teamSelect{
-	background-color: black;
+    background-color: black;
 	max-width: 900px;
 	margin: 0 auto;
 }
