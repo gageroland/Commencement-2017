@@ -9,9 +9,9 @@ Cody Boucher
 Cooper Gilliland
 Alexander Gregory
 Christopher Hurst
-R. Gage Roland
+Robert Roland
 Professor Derric Clark
 
-Version 1.3
-5 May 2017 @ 13:09
-The code used for commencement 2017.
+Version 1.4
+5 May 2017 @ 13:36
+Code Commencement ran
