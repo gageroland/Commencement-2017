@@ -22,10 +22,16 @@ h1{
 	background-color: #363537;
 	color: white;
 }
-.animate-opacity{animation:opac 2.0s}@keyframes opac{from{opacity:0} to{opacity:1}}
+.animate-opacity{
+    animation:opac 2.0s
+}
+@keyframes opac{
+    from{opacity:0} to{opacity:1}
+}
 
-/*INDEX////////////////////////////////////////////////////////////////*/
 
+
+/*Index*/
 .welcomeScr{
 	background-color: #8F1A31;
 	text-align: center;
@@ -48,7 +54,9 @@ h1{
 	background-color: #363537;
 }
 
-/*SELECT///////////////////////////////////////////////////////////////*/
+
+
+/*Degree Select*/
 .teamSelect{
     background-color: black;
 	max-width: 900px;
@@ -69,8 +77,9 @@ h1{
 	padding: 10px 0 10px 0;
 }
 
-/*TEAM CONFIRM + INSTRUCTIONS//////////////////////////////////////////*/
 
+
+/*Team Confirm*/
 .how2play{
 	max-width: 900px;
 }
@@ -97,8 +106,9 @@ h1{
 	background-color: red;
 }
 
-/*GAME PAGES//////////////////////////////////////////////////////////*/
 
+
+/*Game Pages*/
 .matching{
 	margin: 0 auto;
 	width: 300px;
@@ -124,31 +134,38 @@ button{
     line-height: 0.01em;
 }
 
-/*"Game Makers (1)"//////////////////////////////////////////////////////////*/
+
+
+/*"Game Makers (1)"*/
 .gameMakers h1{
     background-image: url("../../img/bg/game-banner.gif");
     background-repeat: no-repeat;
     background-position: center;
     color: black;
 }
-/*"Network (2)"//////////////////////////////////////////////////////////////*/
+
+/*"Network (2)"*/
 .network h1{
     background-image: url("../../img/bg/network-banner.gif");
     background-repeat: no-repeat;
     background-position: center;
 }
-/*"Developers (3)"/////////////////////////////////////////////////////////////*/
+
+/*"Developers (3)"*/
 .developers h1{
     background-image: url("../../img/bg/developers-banner.gif");
     background-repeat: no-repeat;
     background-position: center;
 }
-/*"Designers (4)"////////////////////////////////////////////////////////////*/
+
+/*"Makers (4)"*/
 .makers h1{
     background-image: url("../../img/bg/makers-banner.gif");
     background-repeat: no-repeat;
     background-position: center;
 }
+
+
 
 /*Admin Page*/
 .admin{
@@ -166,7 +183,9 @@ button{
     float:left;
 }
 
-/*End page*/
+
+
+/*End Page*/
 .button{
     float:left;
     margin: 20px auto;
