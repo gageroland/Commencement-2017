@@ -129,11 +129,10 @@ button{
     font-size: 60px;
 }
 .key{
-    font-size: 30px;
+	font-size: 24px;
     color: white;
-    line-height: 0.01em;
+    line-height: 0.1em;
 }
-
 
 
 /*"Game Makers (1)"*/

@@ -8,15 +8,13 @@ $t2line = "teaminc";
 // Create connection
 try {
 	//Collect variables from html pages 
-	$var_team = $_GET['team'];
-	$var_object = $_GET['object'];
 	//Connect to database
 	$conn = new mysqli($servername, $username, $password, $dbname);
 	
    // echo "Connected successfully<br/>";
 	//create querry variable
-	$query = "DELETE * FROM testtable";
-    $query2 = "DELETE * FROM teaminc";
+	$query = 'TRUNCATE TABLE testtable;';
+    $query2 = 'TRUNCATE TABLE teaminc;';
 	if ($conn->query($query) === TRUE) //Try to send data to database
 	{
 		//echo "New Record <br/>";
