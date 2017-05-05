@@ -9,11 +9,9 @@ Cody Boucher
 Cooper Gilliland
 Alexander Gregory
 Christopher Hurst
-Robert Roland
-Rishabh Singh
-Julio Ureta
+R. Gage Roland
 Professor Derric Clark
 
-Version 1.0
-4 May 2017 @ 23:54
-- Images, Layout, PHP, HTML/CSS
+Version 1.3
+5 May 2017 @ 13:09
+The code used for commencement 2017.
