@@ -102,14 +102,27 @@ h1{
 .matching{
 	margin: 0 auto;
 	width: 300px;
+    background-color: grey;
+    border-radius: 50px;
 }
-
+.gamePage{
+    background-color: #8F1A31;
+}
+.gamePage img{
+    margin: 0 auto;
+}
 button{
-	width: 250px;
-	height: 150px;
-	margin: 0 auto;
+    float: left;
+	width: 49.999%;
+	height: 100px;
+	margin: 50px auto;
+    font-size: 60px;
 }
-
+.key{
+    font-size: 30px;
+    color: white;
+    line-height: 0.01em;
+}
 
 /*"Game Makers (1)"//////////////////////////////////////////////////////////*/
 .gameMakers h1{
@@ -155,16 +168,17 @@ button{
 
 /*End page*/
 .button{
-    margin: 0 auto;
+    float:left;
+    margin: 20px auto;
 }
 .button a{
 	border-style: solid;
-	padding: 30px 30px;
+	padding: 15px 30px;
 	text-decoration: none;
-	color: black;
+	color: white;
 	font-size: 50px;
 }
 .button a:hover{
-    color: white;
+    color: grey;
 	background-color: #363537;
 }
