@@ -10,8 +10,10 @@ Cooper Gilliland
 Alexander Gregory
 Christopher Hurst
 Robert Roland
+Rishabh Singh
+Julio Ureta
 Professor Derric Clark
 
-Version 1.4
-5 May 2017 @ 13:36
-Code Commencement ran
+Version 1.0
+4 May 2017 @ 23:54
+- Images, Layout, PHP, HTML/CSS
