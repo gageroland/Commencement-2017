@@ -1,7 +1,6 @@
 # Commencement-2017
 Built for UAT's 2017 Commencement "Tech Moment"
-Can be viewed on: http://commencement.wulf.design.
-Finalized and completed on
+Can be viewed on: https://www.wulf.design/project/tech-moment
 
 Thanks to -
 Samuel Adelson
@@ -13,7 +12,3 @@ Robert Roland
 Rishabh Singh
 Julio Ureta
 Professor Derric Clark
-
-Version 1.0
-4 May 2017 @ 23:54
-- Images, Layout, PHP, HTML/CSS
