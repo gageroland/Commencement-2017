@@ -1,6 +1,6 @@
 # Commencement-2017
 Built for UAT's 2017 Commencement "Tech Moment"
-Can be viewed on: https://www.wulf.design/project/tech-moment
+Can be viewed on: https://www.wulf.design/programming/tech-moment
 
 Thanks to -
 Samuel Adelson
